@@ -10,7 +10,7 @@ João Daniel Nolasco - joaodani@hotmail.com <br/>
 Vinícius Rosa Cota: - vrcota@ufsj.edu.br <br/>
 
 ### PROJECT'S GOAL
-The main objective of the project was to develop and build a low-cost electrical stimulator for experimental stimulation electrophysiology
+<P align="justify"> The main objective of the project was to develop and build a low-cost electrical stimulator for experimental stimulation electrophysiology
 based on the Arduino platform, maximizing ease of use, versatility, and openness. The idea was to develop an output stage shield capable of 
 delivering mono or biphasic pulses with constant current (even in face of varying output impedances) easily attachable to an Arduino microcontroller
 board. Stimulation parameters (pulse frequency, pulse duration, number and polarity of phases) can be controlled by a touch screen and/or by knobs.
