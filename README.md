@@ -1,15 +1,17 @@
 # OPEN-STIM - OPEN SOURCE HARWARE ARDUINO BASED ELECTRICAL STIMULATOR ASSEMBLY INSTRUCTION MANUAL
 
 ## FEDERAL UNIVERSITY OF SÃO JOÃO DEL-REI – UFSJ
-![UFSJ](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/UFSJ.png) &emsp; &emsp; &emsp; &emsp; &emsp;![LINNCE](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/LINNce.png)
-
-## NEUROENGINEERING AND NEUROSCIENCE INTERDISCIPLINARY LABORATORY – LINNCE
-
+### NEUROENGINEERING AND NEUROSCIENCE INTERDISCIPLINARY LABORATORY – LINNCE
+![UFSJ](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/UFSJ.png) &emsp; &emsp; &emsp; &emsp; ![LINNCE](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/LINNce.png)
 
 ### DEVELOPED BY:
 Maikon Lorran Santos - maikon.lorran@hotmail.com <br/>
 João Daniel Nolasco - joaodani@hotmail.com <br/>
 Vinícius Rosa Cota: - vrcota@ufsj.edu.br <br/>
 
-
+### PROJECT'S GOAL
+The main objective of the project is to develop and build a low-cost electrical stimulator
+for experimental electrophysiology based on the Arduino platform. The idea is to build a Shield
+capable of controlling the output current and keeping it constant even if the load changes, that
+is, independent of the animal/tissue being stimulated and possible changes of impedance.
 
