@@ -28,6 +28,8 @@ is, independent of the animal/tissue being stimulated and possible changes of im
 
 &emsp; &emsp; &emsp; ![Shield](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/Shield.png)
 
+### • Meet in the Laboratory: [LINNce](https://ufsj.edu.br/vrcota/linnce.php)
+
 ### LICENSE
 
 ##### Documentation licensed under the Creative Commons Attribution Share Alike 4.0 International License
