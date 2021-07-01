@@ -2,7 +2,7 @@
 
 ## FEDERAL UNIVERSITY OF SÃO JOÃO DEL-REI – UFSJ
 ### NEUROENGINEERING AND NEUROSCIENCE INTERDISCIPLINARY LABORATORY – LINNCE
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;![UFSJ](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/UFSJ.png) &emsp; &emsp; &emsp; &emsp; ![LINNCE](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/LINNce.png)
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;![UFSJ](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/UFSJ.png) &emsp; &emsp; &emsp; &emsp; ![LINNCE](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/LINNce.png)
 
 ### DEVELOPED BY:
 Maikon Lorran Santos - maikon.lorran@hotmail.com <br/>
@@ -26,9 +26,7 @@ is, independent of the animal/tissue being stimulated and possible changes of im
 
 ![OPEN-STIM](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/Open-Stim.png)
 
-### SHIELD
-
-![Shield](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/Shield.png)
+&emsp; &emsp; &emsp; ![Shield](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/Shield.png)
 
 ### LICENSE
 
