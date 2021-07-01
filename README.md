@@ -10,10 +10,17 @@ João Daniel Nolasco - joaodani@hotmail.com <br/>
 Vinícius Rosa Cota: - vrcota@ufsj.edu.br <br/>
 
 ### PROJECT'S GOAL
-The main objective of the project is to develop and build a low-cost electrical stimulator
-for experimental electrophysiology based on the Arduino platform. The idea is to build a Shield
-capable of controlling the output current and keeping it constant even if the load changes, that
-is, independent of the animal/tissue being stimulated and possible changes of impedance.
+The main objective of the project was to develop and build a low-cost electrical stimulator for experimental stimulation electrophysiology
+based on the Arduino platform, maximizing ease of use, versatility, and openness. The idea was to develop an output stage shield capable of 
+delivering mono or biphasic pulses with constant current (even in face of varying output impedances) easily attachable to an Arduino microcontroller
+board. Stimulation parameters (pulse frequency, pulse duration, number and polarity of phases) can be controlled by a touch screen and/or by knobs.
+In this entry, we published the version which is controlled mostly by a touch screen display, but this can be easily substituted by manual controls 
+(switches and additional knobs) with or without a LCD display to further reduce costs (variation not yet published). These variations and openness of 
+the design (which is provisionally certified by OSHWA with UID BR000007) makes Open Stim a very flexible stimulation platform for experienced users and, 
+at the same time, also a ready-to-use device for researchers not skilled on electronics. 
+
+### DISCLAIMER
+We offer this design as is and although it has been successfully tested with care and to the best of our knowledge, we do not provide any warranty in any aspect.
 
 ### STIMULATOR PARAMETERS
 -Current: 15 µA up to 1200 µA <br/>
