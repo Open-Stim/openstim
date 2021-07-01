@@ -1,10 +1,10 @@
 # OPEN-STIM - OPEN SOURCE HARWARE ARDUINO BASED ELECTRICAL STIMULATOR ASSEMBLY INSTRUCTION MANUAL
 
 ## FEDERAL UNIVERSITY OF SÃO JOÃO DEL-REI – UFSJ
-![UFSJ]()
+![UFSJ](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/UFSJ.png)
 
 ## NEUROENGINEERING AND NEUROSCIENCE INTERDISCIPLINARY LABORATORY – LINNCE
-![LINNCE]()
+![LINNCE](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/LINNce.png)
 
 
 
