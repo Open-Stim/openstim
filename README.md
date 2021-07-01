@@ -30,38 +30,6 @@ is, independent of the animal/tissue being stimulated and possible changes of im
 
 ![Shield](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/Shield.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### LICENSE
 
 ##### Documentation licensed under the Creative Commons Attribution Share Alike 4.0 International License
