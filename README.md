@@ -16,9 +16,9 @@ capable of controlling the output current and keeping it constant even if the lo
 is, independent of the animal/tissue being stimulated and possible changes of impedance.
 
 ### STIMULATOR PARAMETERS
-Current: 15 µA up to 1200 µA
-Frequency: 0.1 Hz up to 300 Hz
-Duty Cycle: 4 µs up to 1 s
-Biphasic Pulses
-Low battery indicator
+-Current: 15 µA up to 1200 µA <br/>
+-Frequency: 0.1 Hz up to 300 Hz <br/>
+-Duty Cycle: 4 µs up to 1 s <br/>
+-Biphasic Pulses <br/>
+-Low battery indicator <br/>
 
