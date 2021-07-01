@@ -2,7 +2,7 @@
 
 ## FEDERAL UNIVERSITY OF SÃO JOÃO DEL-REI – UFSJ
 ### NEUROENGINEERING AND NEUROSCIENCE INTERDISCIPLINARY LABORATORY – LINNCE
-![UFSJ](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/UFSJ.png) &emsp; &emsp; &emsp; &emsp; ![LINNCE](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/LINNce.png)
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;![UFSJ](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/UFSJ.png) &emsp; &emsp; &emsp; &emsp; ![LINNCE](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/LINNce.png)
 
 ### DEVELOPED BY:
 Maikon Lorran Santos - maikon.lorran@hotmail.com <br/>
@@ -22,3 +22,41 @@ is, independent of the animal/tissue being stimulated and possible changes of im
 -Biphasic Pulses <br/>
 -Low battery indicator <br/>
 
+### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Documentation licensed under the Creative Commons Attribution Share Alike 4.0 International License
