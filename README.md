@@ -22,7 +22,9 @@ is, independent of the animal/tissue being stimulated and possible changes of im
 -Biphasic Pulses <br/>
 -Low battery indicator <br/>
 
-### 
+### OPEN STIM
+
+![OPEN-STIM](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/Open-Stim.png)
 
 
 
@@ -59,4 +61,5 @@ is, independent of the animal/tissue being stimulated and possible changes of im
 
 
 
-Documentation licensed under the Creative Commons Attribution Share Alike 4.0 International License
+
+##### Documentation licensed under the Creative Commons Attribution Share Alike 4.0 International License
