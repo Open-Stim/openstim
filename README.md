@@ -25,9 +25,7 @@ is, independent of the animal/tissue being stimulated and possible changes of im
 ### OPEN STIM
 
 ![OPEN-STIM](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/Open-Stim.png)
-
 &emsp; &emsp; &emsp; ![Shield](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/Shield.png)
-
 ### • Meet in the Laboratory: [LINNce](https://ufsj.edu.br/vrcota/linnce.php)
 
 ### LICENSE
