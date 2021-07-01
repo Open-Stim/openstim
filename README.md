@@ -34,8 +34,7 @@ at the same time, also a ready-to-use device for researchers not skilled on elec
 
 ![OPEN-STIM](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/Open-Stim.png)
 &emsp; &emsp; &emsp; ![Shield](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/Shield.png)
-### • Meet in the Laboratory: [LINNce](https://ufsj.edu.br/vrcota/linnce.php)
+### • More about the lab, at our website: [LINNce](https://ufsj.edu.br/vrcota/linnce.php)
 
 ### LICENSE
-
 ##### Documentation licensed under the Creative Commons Attribution Share Alike 4.0 International License
