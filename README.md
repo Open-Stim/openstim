@@ -20,7 +20,8 @@ the design (which is provisionally certified by OSHWA with UID BR000007) makes O
 at the same time, also a ready-to-use device for researchers not skilled on electronics. 
 
 ### DISCLAIMER
-We offer this design as is and although it has been successfully tested with care and to the best of our knowledge, we do not provide any warranty in any aspect.
+<P align="justify"> We offer this design as is and although it has been successfully tested with care and to the best of our knowledge, we do not provide any 
+ warranty in any aspect.
 
 ### STIMULATOR PARAMETERS
 -Current: 15 µA up to 1200 µA <br/>
