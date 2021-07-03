@@ -1,5 +1,11 @@
 # <P align="center"> OPEN-STIM - OPEN SOURCE HARWARE ARDUINO BASED ELECTRICAL STIMULATOR 
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; ![UID_OSHWA](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/OSHWA.png)
+ 
+&emsp; &emsp; &emsp; &emsp; &emsp;Licence | OSHWA |
+:-------------------------:|:-------------------------:|
+[![](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/OSHWA_Licences.png)](https://github.com/Open-Stim/openstim/blob/main/LICENSE) | [![](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/OSHWA_BR000007.png)](https://certification.oshwa.org/br000007.html) 
+
+ 
+&emsp; &emsp; &emsp; &emsp; &emsp; 
 ## <P align="center"> FEDERAL UNIVERSITY OF SÃO JOÃO DEL-REI – UFSJ
 ### <P align="center"> NEUROENGINEERING AND NEUROSCIENCE INTERDISCIPLINARY LABORATORY – LINNCE
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;![UFSJ](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/UFSJ.png) &emsp; &emsp; &emsp; &emsp; ![LINNCE](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/LINNce.png)
