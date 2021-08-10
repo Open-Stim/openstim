@@ -5,7 +5,7 @@
 
 Licence | OSHWA |
 :-------------------------:|:-------------------------:|
-[![](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/OSHWA_Licences.png)](https://github.com/Open-Stim/openstim/blob/main/LICENSE) | [![](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/OSHWA_BR000007.png)](https://certification.oshwa.org/br000007.html) 
+[![](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/Licenses.png)](https://github.com/Open-Stim/openstim/blob/main/LICENSE) | [![](https://github.com/Open-Stim/openstim/blob/main/Additional%20files/OSHWA_BR000007.png)](https://certification.oshwa.org/br000007.html) 
 
 </table> 
  
