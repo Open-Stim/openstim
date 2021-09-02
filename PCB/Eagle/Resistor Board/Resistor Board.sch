@@ -5253,6 +5253,15 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <wire x1="73.66" y1="38.1" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$25" class="0">
+<segment>
+<wire x1="12.7" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="58.42" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="73.66" x2="10.16" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="73.66" x2="10.16" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="58.42" x2="12.7" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
