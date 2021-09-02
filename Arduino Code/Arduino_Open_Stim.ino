@@ -30,12 +30,12 @@ NexNumber x1      = NexNumber(1, 8, "x1"); // Pulse duration: 0.004 - 1000ms
 // ===============================================================================
 // --- Hardware Mapping ---
 
-byte pino_OCR4D = 6; // The duty cycle does not vary. Base for positive pulse
-byte pino_OCR4B = 10; // Varies work cycle and frequency. Cut the beginning of the wave from pin 6.
-byte pino_OCR4D_invertido = 12; // The duty cycle does not vary. Base for the negative pulse.
-byte pino_OCR4A_invertido = 5; // Varies work cycle and frequency. Cut the end of the wave from pin 12.
-byte pino_OCR4B_invertido = 9; // It is not used but generates PWM
-byte pino_OCR4A = 13; // It is not used but generates PWM
+byte pino_OCR4D = D0; //6; // The duty cycle does not vary. Base for positive pulse
+byte pino_OCR4B = D1; // 10; // Varies work cycle and frequency. Cut the beginning of the wave from pin 6.
+byte pino_OCR4D_invertido = D2; // 12; // The duty cycle does not vary. Base for the negative pulse.
+byte pino_OCR4A_invertido = D3; // 5; // Varies work cycle and frequency. Cut the end of the wave from pin 12.
+byte pino_OCR4B_invertido = D4; // 9; // It is not used but generates PWM
+byte pino_OCR4A = D5; // 13; // It is not used but generates PWM
 
 
 // ================================================================================================================
@@ -73,8 +73,9 @@ void setup() // DEFINES INITIAL CONDITION
 
 {
   nexInit();  // Initializes Nextion tft display
-  Serial.begin(9600); // Communication rate
-  TCCR4D = 0b00000000; // The value of this register remains unchanged throughout the code.
+  Serial.begin(115200); // Communication rate
+ // TCCR4D = 0b00000000; // The value of this register remains unchanged throughout the code.
+ Serial.println("Inicializando ... ");
 }
 
 void loop()
@@ -84,7 +85,8 @@ void loop()
   bt0.getValue(&ds_ST); // Start / Stop button
   bt1.getValue(&ds_P); // Positive pulse button
   bt2.getValue(&ds_N); // Negative pulse button
-  
+
+   
   switch (ds_ST)
   {
     
@@ -147,6 +149,8 @@ void loop()
     x0.setValue(1);
   }
 
+ 
+
 
   // Read directly from the Nextion screen the pulse duration entered:
   
@@ -160,11 +164,44 @@ void loop()
     x1.setValue(4);
   }
   
-  largura_do_pulso_desejada = largura_do_pulso_desejada/1000; // Go from milliseconds to seconds
+ // largura_do_pulso_desejada = largura_do_pulso_desejada/1000; // Go from milliseconds to seconds
   limite_largura_pulso = ((1/frequencia_desejada)/2);  // The highest possible value for the pulse width is 50% because the wave generated must be symmetrical. Value in seconds.
  
   //    == END OF BASIC CALCULATIONS ==   //
 
+ /* ESP8266 Implementation */
+
+
+ /* analogWriteFreq(frequencia_desejada);
+ analogWriteRange(1023);
+ analogWrite(0, (int)(1023*largura_do_pulso_desejada*frequencia_desejada)); // Largura do pulso = 1 */
+
+  verificaPWM(frequencia_desejada, largura_do_pulso_desejada);
+}
+  
+void verificaPWM(double frequencia_desejada, double largura_do_pulso_desejada){
+
+
+  static bool level = false;
+  static long last_millis_pulso=millis(), last_millis_comprimento=millis();
+  double comprimento_onda =  1.0 / frequencia_desejada;
+  
+  if (level && ((millis() - last_millis_pulso) > largura_do_pulso_desejada*1000)) {
+      level = false;
+  } else if (!level && ((millis() - last_millis_comprimento) > comprimento_onda*1000) && (largura_do_pulso_desejada > 0.0)){
+    level = true;
+    last_millis_comprimento = millis();
+    last_millis_pulso = millis();
+  }
+  if (level){
+    digitalWrite(pino_OCR4D,HIGH);
+    digitalWrite(pino_OCR4D_invertido,LOW);
+  } else {
+    digitalWrite(pino_OCR4D,LOW);
+    digitalWrite(pino_OCR4D_invertido,HIGH);
+  }
+  
+}
 
 /*========================================================================================================================================================
 NOTE 2:
@@ -176,7 +213,7 @@ NOTE 2:
    That is, if the timer / counter prescaler 4 reached the value of 262144.
 
  ========================================================================================================================================================= =*/
- 
+ /*
   // FREQUENCY BETWEEN 0.1 HZ AND 0.96 HZ:
    
   if ((frequencia_desejada >= 0.1)&&(frequencia_desejada < 0.96))
@@ -225,7 +262,7 @@ NOTE 3:
    In the following if statements, the calculated lower limit of the desired_frequency is always rounded up. Thus, 
    the counter_period does not exceed its upper limit (1023)
 
- ========================================================================================================================================= =*/
+ ========================================================================================================================================= =* /
   
   // FREQUENCY BETWEEN 0.96 HZ AND 1.91 HZ:
   
@@ -264,7 +301,7 @@ NOTE 3:
 NOTE 4:
 From now on, the same reasoning follows, changing only the prescaler, and therefore, we will not repeat the same comments
 
-==========================================================================================================================*/
+==========================================================================================================================* /
   
   // FREQUENCY BETWEEN 1.91 HZ AND 3.32 HZ:
   
@@ -507,4 +544,4 @@ From now on, the same reasoning follows, changing only the prescaler, and theref
     TCCR4E = 0b00000000;
   
   }
-}
+} */
