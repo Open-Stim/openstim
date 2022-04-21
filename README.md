@@ -1,4 +1,4 @@
-# <P align="center"> OPEN-STIM - OPEN SOURCE HARWARE ARDUINO BASED ELECTRICAL STIMULATOR 
+# <P align="center"> OPEN-STIM - OPEN SOURCE HARDWARE ARDUINO BASED ELECTRICAL STIMULATOR 
 <table align='center'>
 <tr align='center'>
 <td align='center'>
